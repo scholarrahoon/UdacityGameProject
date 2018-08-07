@@ -1,4 +1,3 @@
-# Udacity Game Project
 # Memory Game Project
 
 ## Table of Contents
