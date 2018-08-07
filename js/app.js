@@ -1,10 +1,12 @@
 var min = 0;
 var sec = 0;
-var stop = 0;
 
-window.onclick= function() {
-    stop !==0
-};
+
+
+    
+window.onclick = function() {
+        var stop = 0
+
     setInterval(function() {
         if (stop !== 1) {
             sec++;
@@ -20,7 +22,7 @@ window.onclick= function() {
 
     }, 1000);
 
-
+};
 /*
  * A list or array with its elements representing all cards to be accessed by program.
  */
@@ -78,7 +80,7 @@ function shuffle(array) {
 
 /*
 event listener is created once card is clicked.
-cards are removed if they don't match and if they match they will be locked in position.
+cards are removed if they don't match and if they match, they will be locked in position.
  */
 var moves = 0,
     stars = 3;
