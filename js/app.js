@@ -1,11 +1,9 @@
 var min = 0;
 var sec = 0;
-
+var stop = 0;
 
 
     
-window.onclick = function() {
-        var stop = 0
 
     setInterval(function() {
         if (stop !== 1) {
@@ -22,7 +20,7 @@ window.onclick = function() {
 
     }, 1000);
 
-};
+
 /*
  * A list or array with its elements representing all cards to be accessed by program.
  */
